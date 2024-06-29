@@ -1,0 +1,106 @@
+/* styles.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-image: url('background.jpg'); /* Replace with your background image URL */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(52, 152, 219, 0.8);
+    color: #fff;
+}
+
+section {
+    margin: 20px;
+}
+
+h2 {
+    color: #3498db;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+address {
+    font-style: normal;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(52, 152, 219, 0.8);
+    color: #fff;
+}
+
+
+.nowrap{
+    white-space: nowrap;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+
+}
+ul li a:hover{
+    color: #ff7200;
+}
+/* Style the navigation bar */
+.navbar {
+    background-color:#3498db;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.menu ul li {
+    margin-right: 10px;
+}
+
+.menu ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Add styles for active links */
+.menu ul li.active a {
+    font-weight: bold;
+}

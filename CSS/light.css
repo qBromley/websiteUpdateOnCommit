@@ -1,0 +1,454 @@
+
+*{
+    margin: 0; 
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background-color: burlywood;
+    background-size: cover;
+    height: 100vh;
+}
+.mainPort{
+    width: 100%;
+    background-color: burlywood;
+    background-position: center;
+    background-size: cover;
+    height: 150vh;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200;
+    float: left;
+    height: 75;
+}
+.logo
+{
+    color:rgb(0, 0, 0);
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium';
+    padding-top: 10px;
+
+}
+.menu{
+    width:400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 7%;
+
+}
+.nowrap{
+    white-space: nowrap;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Franklin Gothic Medium';
+    font-weight: bold;
+    font-size: larger;
+
+}
+ul li a:hover{
+    color: black;
+}
+.quinn
+{
+    margin-bottom: 0px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.bio
+{
+
+    
+    display: inline-block;
+    padding: 10px;
+    
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Franklin Gothic Medium';
+    font-size: medium;
+    background-color: cornsilk;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: cornsilk;
+    color: black;
+    text-align: center;
+    font-size: larger;
+ }
+ .footer span
+ {
+   
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    
+ }
+ .footer a{
+    text-decoration: none;
+    color: black;
+ }
+ .spacing
+ {
+    margin-left: 100px;
+    margin-right: 100px;
+ }
+ .oval-container {
+    display: inline-block;
+    padding: 10px;
+    background-color: cornsilk;
+    border-radius: 10px;
+}
+.resume{
+    margin-top: 30px;
+    width: 600px;
+    margin-left: 36% ;
+    margin-right: auto;
+    float: center;
+  
+   
+    
+        
+}
+.resume img{
+    border-radius: 20px;
+}
+
+.resumeTxt 
+{
+   
+    color:black;
+    padding-left: 150px;
+    
+
+}
+.resumeTxt :hover
+{
+    color: burlywood;
+}
+.skills{
+    width: 80%;
+    height: auto;
+    margin-top: 3%;
+    margin-right: 10%;
+    margin-left: 10%;
+    float: bottom;
+}
+.skillstitle{
+    text-align: center;
+    color:black;
+    font-size: x-large;
+    font-weight: bold;
+
+}
+.skillsbody{
+    text-align: left;
+    color: black;
+    font-size: 40;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium';
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: cornsilk;
+}
+.area{
+    width: 400px;
+    height: 0;
+    padding-left: 150px;
+    
+}
+.areaTitle{
+    padding-top: 40px;
+    text-align: center;
+    color:black;
+    font-size: x-large;
+    font-weight: bold;
+    
+    
+    
+}
+.areaBody{
+    text-align: left;
+    color: black;
+    font-size: 40;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium';
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: cornsilk;
+}
+.textboxPortfolio
+{
+    
+    width: auto;
+    height: auto;
+    float: top;
+    margin-right: 50px;
+    margin-left: 50px;
+    
+    
+}
+
+.images{
+    width: auto;
+    height:auto;
+    float:bottom;
+}
+.images img{
+    border-radius: 20px;
+}
+.connect4
+{
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium';
+    font-weight: bold;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: left;
+    color: black;
+    background-color: cornsilk;
+    font-size: 40; 
+}
+
+.connect4image
+{
+  float: left;
+  margin-top: 4%;
+  margin-left: 6%;
+}
+.connect4image img 
+{
+    height: 250px;
+    width:auto;
+}
+.hackathon
+{
+    
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium';
+    font-weight: bold;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: left;
+    color: black;
+    background-color: cornsilk;
+    font-size: 40; 
+}
+
+.lainImage
+{
+
+   
+    float: right;
+    margin-top: 4%;
+    margin-right: 10%;
+    
+}
+.lainImage img 
+{
+    
+    height: 250px;
+    width:auto;
+}
+
+.laintxt
+{
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium';
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: left;
+    color: black;
+    background-color: cornsilk;
+    font-size: 40; 
+}
+
+
+.imagesplicing
+{
+    
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium';
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: left;
+    color: black;
+    background-color: cornsilk;
+    font-size: 40; 
+
+}
+.headerPort
+{
+    padding-top: 50px;
+    color:black;
+    text-align: left;
+    font-weight: bold;
+    font-size: 10;
+    
+}
+figure {
+    float: right;
+    width: 30%;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+  
+  }
+  .intxt
+  {
+    text-decoration: underline;
+   
+    color: black;
+    font-family: 'Franklin Gothic Medium';
+    text-align: left;
+    
+
+  }
+  .intxt:hover
+  {
+    text-align: left;
+    color:burlywood;
+  }
+  .intxtheader
+  {
+    text-decoration: underline;
+    
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium';
+    text-align: left;
+    
+
+  }
+  .intxtheader:hover
+  {
+    font-size: large;
+    font-weight: bold;
+    text-align: left;
+    color: white;
+  }
+  .HeaderLink
+  {
+    text-decoration: underline;
+    color:black;
+
+  }
+  .HeaderLink :hover
+  {
+    color:white;
+  }
+  .service{
+    margin: auto;
+    float:center;
+  }
+
+  .service img 
+  {
+    width: 400px;
+    height: auto;
+    float: right;
+    margin-right: 10%;
+    margin-top: 1%;
+    border-radius: 20px;
+   
+  }
+  .ovalBdr
+  {
+    border-radius: 20px;
+  }
+  .service p
+  {
+    color:black;
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+    width: 500px;
+    height: auto;
+    float:left;
+    margin-top: 10%;
+    margin-left: 10%;
+    background-color: cornsilk;
+    border-radius: 10px;
+  }
+  .service a{
+    color: black;
+
+  }
+  .service a :hover
+  {
+    color:white;
+  }
+  .center {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+  .thumbnail { 
+    top:-50px; 
+    left:-35px; 
+    display:block; 
+    z-index:999; 
+    cursor: pointer; 
+    -webkit-transition-property: all; 
+    -webkit-transition-duration: 0.3s; 
+    -webkit-transition-timing-function: ease; 
+    } 
+    .thumbnail:hover { 
+        transform: scale(1.15); 
+        }
+       
+  
+.container 
+{
+    margin-top: 0%;
+    margin-right: 0%;
+    margin-left: auto;
+    float: right;
+    
+    
+    
+}
+.container button 
+{
+    background-color: #ff730000;
+    border-color: #ff730000;
+    height: 10px;
+    width: auto;
+    color:black;
+    font-family: 'Franklin Gothic Medium';
+    text-decoration: none;
+    font-size: large;
+}
+
+
+

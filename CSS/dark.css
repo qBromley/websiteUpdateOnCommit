@@ -1,0 +1,389 @@
+body {
+    background-color: black;
+    color: white;
+}
+*{
+    margin: 0; 
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(https://media.giphy.com/media/l3vRnoppYtfEbemBO/giphy.gif);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.mainPort{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(https://media.giphy.com/media/l3vRnoppYtfEbemBO/giphy.gif);
+    background-position: center;
+    background-size: cover;
+    height: 125vh;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200;
+    float: left;
+    height: 75;
+}
+.logo
+{
+    color:rgb(254, 109, 13);
+    font-size: 40px;
+    font-family: 'Times New Roman';
+   
+   
+    padding-top: 10px;
+
+}
+.menu{
+    width:400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+
+}
+.nowrap{
+    white-space: nowrap;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+
+}
+ul li a:hover{
+    color: #ff7200;
+}
+.quinn
+{
+    margin-bottom: 0px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.bio
+{
+
+    
+    display: inline-block;
+    padding: 10px;
+    border: 4px solid #ff7200;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    font-family:'Times New Roman';
+    font-size: medium;
+   
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #ff7200;
+    color: black;
+    text-align: center;
+    font-size: larger;
+ }
+ .footer span
+ {
+   
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    
+ }
+ .footer a{
+    text-decoration: none;
+    color: black;
+ }
+ .footer img 
+ {
+    margin-top: 5px;;
+    height: 30px;
+    width: auto;
+ }
+ .spacing
+ {
+    margin-left: 100px;
+    margin-right: 100px;
+ }
+ .oval-container {
+    display: inline-block;
+    padding: 40px;
+    background-color: #ff7200;
+    border-radius: 10px;
+}
+.resume{
+  
+    width: 600px;
+    margin-left: auto ;
+    margin-right: 0px ;
+    
+        
+}
+
+.resumeTxt 
+{
+   
+    color:#ff7200;
+    padding-left: 150px;
+    
+
+}
+.resumeTxt :hover
+{
+    color: white;
+}
+.skills{
+    width: 400px;
+    height: 0px;
+    padding-left: 150px;
+    padding-top: 30px;
+}
+.skillstitle{
+    text-align: center;
+    color:#ff7200;
+    font-size: x-large;
+    font-weight: bold;
+}
+.skillsbody{
+    text-align: left;
+    color: white;
+    font-size: 40;
+}
+.area{
+    width: 400px;
+    height: 0;
+    padding-left: 150px;
+    
+}
+.areaTitle{
+    padding-top: 40px;
+    text-align: center;
+    color:#ff7200;
+    font-size: x-large;
+    font-weight: bold;
+}
+.areaBody{
+    text-align: left;
+    color: white;
+    font-size: 40;
+}
+.textboxPortfolio
+{
+    
+    width: 600px;
+    height: auto;
+    float: right;
+    margin-right: 50px;
+    
+    
+}
+
+.images{
+    width: 600px;
+    height:auto;
+}
+.connect4
+{
+    
+    text-align: left;
+    color: white;
+    font-size: 40; 
+}
+.connect4image
+{
+  float: left;
+  padding-left: 150px;
+  padding-top: 50px;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hackathon
+{
+    
+    text-align: left;
+    color: white;
+    font-size: 40; 
+}
+.lainImage
+{
+
+    padding-top: 450px;
+    margin-left: -200px;
+    float: left;
+    
+}
+
+.laintxt
+{
+    
+    text-align: left;
+    color: white;
+    font-size: 40; 
+}
+
+.imagesplicing
+{
+    
+    text-align: left;
+    color: white;
+    font-size: 40; 
+}
+.headerPort
+{
+    padding-top: 50px;
+    color:#ff7200;
+    text-align: left;
+    font-weight: bold;
+    font-size: 10;
+    
+}
+figure {
+    float: right;
+    width: 30%;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+  
+  }
+  .intxt
+  {
+    text-decoration: underline;
+   
+    color: white;
+    font-family: 'Times New Roman';
+    text-align: left;
+    color: white;
+
+  }
+  .intxt:hover
+  {
+    text-align: left;
+    color:#ff7200;
+  }
+  .intxtheader
+  {
+    text-decoration: underline;
+    
+    color: #ff7200;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Times New Roman';
+    text-align: left;
+    
+
+  }
+  .intxtheader:hover
+  {
+    font-size: large;
+    font-weight: bold;
+    text-align: left;
+    color: white;
+  }
+  .HeaderLink
+  {
+    text-decoration: underline;
+    color:#ff7200;
+
+  }
+  .HeaderLink :hover
+  {
+    color:white;
+  }
+  .service
+  {
+    width: 600px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .service p
+  {
+    color:white;
+    font-family: 'Times New Roman';
+    text-align: center;
+    
+  }
+  .service a{
+    color: white;
+
+  }
+  .service a :hover
+  {
+    color:#ff7200;
+  }
+  .center {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+  .thumbnail { 
+    top:-50px; 
+    left:-35px; 
+    display:block; 
+    z-index:999; 
+    cursor: pointer; 
+    -webkit-transition-property: all; 
+    -webkit-transition-duration: 0.3s; 
+    -webkit-transition-timing-function: ease; 
+    } 
+    .thumbnail:hover { 
+        transform: scale(1.15); 
+        }
+       
+  
+.container 
+{
+    margin-top: 0%;
+    margin-right: 0%;
+    margin-left: auto;
+    float: right;
+    
+    
+    
+}
+.container button 
+{
+    background-color: #ff730000;
+    border-color: #ff730000;
+    height: 10px;
+    width: auto;
+    color:white;
+    font-family: 'Times New Roman';
+    text-decoration: none;
+    font-size: large;
+}
+
+
