@@ -9,14 +9,14 @@ body {
 
 .main{
     width: 100%;
-    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemd2ZGN3Y3k2b21wazZqdXlpenVxM2N4ZnJhZnMxcTN0ZmFnaDRkZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/26FmS0o3MAwbtkuUE/giphy.webp);
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(https://media.giphy.com/media/l3vRnoppYtfEbemBO/giphy.gif);
     background-position: center;
     background-size: cover;
     height: 100vh;
 }
 .mainPort{
     width: 100%;
-    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExemd2ZGN3Y3k2b21wazZqdXlpenVxM2N4ZnJhZnMxcTN0ZmFnaDRkZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/26FmS0o3MAwbtkuUE/giphy.webp);
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(https://media.giphy.com/media/l3vRnoppYtfEbemBO/giphy.gif);
     background-position: center;
     background-size: cover;
     height: 125vh;
